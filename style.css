@@ -1,0 +1,66 @@
+/* Seletor por elemento */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 20px;
+  }
+  
+  /* Seletor por ID */
+  #cabecalho {
+    background-color: #4682b4;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Seletor por classe */
+  .contatos li {
+    list-style: none;
+    margin-bottom: 10px;
+  }
+  
+  .titulo-principal {
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    text-decoration: underline;
+  }
+  
+  /* Seletor por atributo */
+  .curso[data-instituicao="Bradesco"] {
+    background-color: #d8bfd8;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  /* Pseudo-classe */
+  a:hover {
+    color: #ff4500;
+    text-decoration: underline overline;
+  }
+  
+  /* Estilizando seções */
+  section {
+    margin-top: 30px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  /* Decorações de texto extras */
+  figcaption {
+    text-align: center;
+    font-style: oblique;
+    text-decoration: overline;
+  }
+
+  figure {
+    text-align: center;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+  }
+  
